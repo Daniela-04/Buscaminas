@@ -38,7 +38,7 @@ clica [Administrativo], luego [Cambiar configuracion local del sistema]
 
 ![casilla activada](assets/casillaVerificacion.png)
 
-[^1] Es una funcion experimental por lo que no todos los emojis estan soportados. 
+[^1]: Es una funcion experimental por lo que no todos los emojis estan soportados. 
 (Fuente: https://github.com/spectreconsole/spectre.console/issues/113)
 
 ## Como ejecutar el juego
