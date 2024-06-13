@@ -3,6 +3,8 @@
 Este proyecto es, en escencia, una recreación en java y por consola del famoso juego. 
 Sin embargo, esta tematizado de gatos.
 
+---
+
 <!-- TOC -->
   * [Consideraciones previas](#consideraciones-previas-)
     * [⚙️ Activar emojis en windows](#-activar-emojis-en-windows-)
@@ -11,7 +13,7 @@ Sin embargo, esta tematizado de gatos.
   * [Overview 🧐](#overview-)
 <!-- TOC -->
 
-
+---
 ## Consideraciones previas 
 
 ---
@@ -54,19 +56,23 @@ clica [Administrativo], luego [Cambiar configuracion local del sistema]
 
 --- 
 
-+ El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina.
++ El juego consiste en despejar todas las casillas del tablero que no oculten un gato.
 
 
-+ Algunas casillas tienen un número, este número indica los gatos que hay en todas las casillas circundantes. Así, si una casilla tiene el número 3, significa que de las 8 casillas que hay alrededor (si no es en una esquina o borde) hay 3 con gatos y 5 sin gatos. 
++ Algunas casillas tienen un número, este número indica los gatos que hay en todas las casillas circundantes. Así, si una casilla tiene el número 2, significa que de las 8 casillas que hay alrededor (si no es en una esquina o borde) hay 2 con gatos y 6 sin gatos. 
+
+![casullas con numero](assets/casillasNumero.png)
+
++ Si se descubre una casilla sin número, indica que ninguna de las casillas vecinas tiene un gato y estas se descubren automáticamente. 
+
+    Por ejemplo aqui pisamos `D6` y como no habia nada se descubrieron varias casillas.
+
+![casillas vacias](assets/casillasVacias.png)
+
++ Si se descubre una casilla con una gato, se pierde la partida.
 
 
-+ Si se descubre una casilla sin número indica que ninguna de las casillas vecinas tiene un gato y estas se descubren automáticamente.
-
-
-+ Si se descubre una casilla con una gato se pierde la partida.
-
-
-+ Se puede poner una marca en las casillas que el jugador piensa que hay minas para ayudar a descubrir la que están cerca.
++ Se puede poner una marca en las casillas en la que se piese que hay un gato.
 
 ## Overview 🧐
 
@@ -78,7 +84,7 @@ de ```gatos``` a encontrar
 
 ![menu de niveles](assets/niveles.png)
 
-Una vez seleccionada la dificultad comienza el juego y se imprime el tablero con el número de casillas.
+Una vez seleccionada la dificultad comienza el juego y se imprime el tablero con el número de casillas
 y gatos ocultos correspondiente
 
 por ejemplo:
@@ -87,7 +93,7 @@ por ejemplo:
 
 ![tablero](assets/tablero.png)
 
-Acto seguido, se pregunta al jugador qué desea hacer usando un menu de opciones:
+Acto seguido, se pregunta al jugador qué desea hacer usando un menú de opciones:
 
 ![menu de accion](assets/menu.png)
 
@@ -96,7 +102,7 @@ Acto seguido, se pregunta al jugador qué desea hacer usando un menu de opciones
 
 ![casilla D6 revelada](assets/revelacion.png)
 
-`Bandera` - Quiere decir que se marcara la casilla como sospechosa de tener un gato, por ejemplo marcamos `A3`.
+`Bandera` - Quiere decir que se marcará la casilla como sospechosa de tener un gato, por ejemplo marcamos `A3`.
 
 ![bandera puesta](assets/bandera.png)
 
