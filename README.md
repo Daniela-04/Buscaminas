@@ -1,4 +1,5 @@
 ![Busca gatos banner](assets%2FBanner.png)
+
 Este proyecto es, en escencia, una recreación en java y por consola del famoso juego. 
 Sin embargo, esta tematizado de gatos.
 
