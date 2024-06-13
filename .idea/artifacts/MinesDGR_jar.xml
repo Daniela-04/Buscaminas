@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MinesDGR:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MinesDGR_jar</output-path>
+    <root id="archive" name="MinesDGR.jar">
+      <element id="module-output" name="MinesDGR" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/1DAW/Programacion/Libreriascustom/out/artifacts/Libreriascustom_jar/Libreriascustom.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

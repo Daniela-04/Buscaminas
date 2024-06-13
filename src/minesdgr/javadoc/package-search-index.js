@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"minesdgr"},{"l":"minesdgr.controlador"},{"l":"minesdgr.model"},{"l":"minesdgr.vista"}];updateSearchResults();
