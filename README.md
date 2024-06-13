@@ -1,4 +1,4 @@
-![Busca gatos banner](C:\Users\danie\Documents\1DAW\Programacion\github\MinesDGR\assets\Banner.png)
+![Busca gatos banner](assets%2FBanner.png)
 Este proyecto es, en escencia, una recreación en java y por consola del famoso juego. 
 Sin embargo, esta tematizado de gatos.
 
@@ -16,9 +16,9 @@ Sin embargo, esta tematizado de gatos.
 ---
 `⚠️ Hay que tener instalado java para poder jugar`
 
-### ⚙️ Activar emojis en windows[^1]
+### ⚙️ Activar emojis en windows 
 
- Para ver los emojis en la terminal de windows sigue estos pasos:
+ Para ver los emojis[^1] en la terminal de windows sigue estos pasos:
 
 1. presiona `Windows + r` y pega este comando
 ```
